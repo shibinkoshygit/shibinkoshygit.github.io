@@ -23,8 +23,8 @@ window.SITE = {
   // address), e.g. "assets/Shibin_Koshy_CV.pdf". Leave "" until you add it.
   cv: "",
 
-  // PLACEHOLDER: path to your photo, e.g. "assets/img/shibin.webp". Leave "" until then.
-  photo: "",
+  // Portrait shown in the hero (4:5).
+  photo: "assets/img/shibin.webp",
 
   /* ---------- Hero ---------- */
   hero: {

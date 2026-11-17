@@ -51,7 +51,6 @@ Search `content.js` for `PLACEHOLDER`. Each one shows on the site as a dashed bo
 | What | Where in `content.js` | Format |
 |---|---|---|
 | Public CV | `cv` | PDF **without phone number or street address**, saved as `assets/Shibin_Koshy_CV.pdf` |
-| Photo | `photo` | Portrait 4:5, about 840×1050 px, WebP or JPG, under 150 KB |
 | VR demo video | `vr-audio-feedback` → `media` | Unlisted YouTube video: `{ type: "youtube", id: "VIDEO_ID", title: "..." }` |
 | Self-driving car clip | `self-driving-car` → `media` | YouTube id, or a GIF/WebP under 3 MB, about 800 px wide |
 | Style-transfer images | `neural-style-transfer` → `visual` and `media` | One 16:9 before/after image, about 1400×788 px, WebP, under 200 KB |
