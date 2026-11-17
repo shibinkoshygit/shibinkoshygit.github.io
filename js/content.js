@@ -19,9 +19,8 @@ window.SITE = {
   // Taken from the handle on your CV — confirm it opens your profile.
   linkedin: "https://www.linkedin.com/in/shibinkoshy",
 
-  // PLACEHOLDER: path to a PUBLIC copy of your CV (no phone number or street
-  // address), e.g. "assets/Shibin_Koshy_CV.pdf". Leave "" until you add it.
-  cv: "",
+  // PUBLIC copy of your CV — must never contain a phone number or street address.
+  cv: "assets/Shibin_Koshy_CV.pdf",
 
   // Portrait shown in the hero (4:5).
   photo: "assets/img/shibin.webp",

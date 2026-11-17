@@ -44,13 +44,16 @@ python3 -m http.server 4173
 
 Then open <http://localhost:4173>.
 
+## Updating the CV
+
+Replace `assets/Shibin_Koshy_CV.pdf` with a new PDF of the same name. This file is public: it must not contain a phone number or street address.
+
 ## Placeholders still to fill
 
 Search `content.js` for `PLACEHOLDER`. Each one shows on the site as a dashed box until it's replaced.
 
 | What | Where in `content.js` | Format |
 |---|---|---|
-| Public CV | `cv` | PDF **without phone number or street address**, saved as `assets/Shibin_Koshy_CV.pdf` |
 | VR demo video | `vr-audio-feedback` → `media` | Unlisted YouTube video: `{ type: "youtube", id: "VIDEO_ID", title: "..." }` |
 | Self-driving car clip | `self-driving-car` → `media` | YouTube id, or a GIF/WebP under 3 MB, about 800 px wide |
 | Style-transfer images | `neural-style-transfer` → `visual` and `media` | One 16:9 before/after image, about 1400×788 px, WebP, under 200 KB |
