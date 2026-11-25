@@ -45,7 +45,7 @@
   function renderHero() {
     var h = S.hero;
     var photo = S.photo
-      ? '<img class="hero__photo" src="' + esc(S.photo) + '" alt="Portrait of ' + esc(S.name) + '" width="420" height="520">'
+      ? '<img class="hero__photo' + (S.photoCutout ? " hero__photo--cutout" : "") + '" src="' + esc(S.photo) + '" alt="Portrait of ' + esc(S.name) + '" width="420" height="520">'
       : ph("Your photo goes here", "ph--photo");
     $("#hero").innerHTML =
       '<div class="hero__glow" aria-hidden="true"></div>' +
@@ -60,7 +60,7 @@
             cvButton("btn--ghost") +
           "</div>" +
         "</div>" +
-        '<div class="hero__media reveal">' + photo + "</div>" +
+        '<div class="hero__media' + (S.photo && S.photoCutout ? " hero__media--cutout" : "") + ' reveal">' + photo + "</div>" +
       "</div>" +
       '<div class="container"><dl class="facts reveal">' +
         h.facts.map(function (f) {

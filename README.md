@@ -28,6 +28,8 @@ Everything you'd want to change is in **`js/content.js`**.
 - **Reorder projects** — reorder the objects in the array.
 - **Change the accent colour** — edit `--accent` in both themes at the top of `css/style.css`.
 
+After editing `css/style.css`, `js/content.js` or `js/main.js`, bump the `?v=` number on that file's tag in `index.html` (e.g. `?v=3` → `?v=4`) so returning visitors get the new version instead of a cached one.
+
 Then publish:
 
 ```bash

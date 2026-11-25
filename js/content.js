@@ -23,7 +23,10 @@ window.SITE = {
   cv: "assets/Shibin_Koshy_CV.pdf",
 
   // Portrait shown in the hero (4:5).
-  photo: "assets/img/shibin-headshot.webp",
+  photo: "assets/img/shibin-cutout.webp",
+  // true = the photo has a transparent background and blends into the page.
+  // Set to false for a normal rectangular photo.
+  photoCutout: true,
 
   /* ---------- Hero ---------- */
   hero: {
