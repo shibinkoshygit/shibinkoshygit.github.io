@@ -481,7 +481,7 @@ window.SITE = {
     { group: "Systems", items: ["Distributed systems", "Apache ZooKeeper", "Microservices", "Concurrency"] },
     { group: "Other", items: ["Unreal Engine 5 (Blueprints)", "Jupyter", "Linux"] }
   ],
-  spokenLanguages: ["English (IELTS 7.0, CEFR C1)", "Malayalam", "Hindi", "Tamil (conversational)"],
+  spokenLanguages: ["English (IELTS 7.0, CEFR C1)", "Malayalam", "Hindi"],
 
   /* ---------- Contact ---------- */
   contact: {
