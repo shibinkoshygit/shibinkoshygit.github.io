@@ -16,7 +16,6 @@ window.SITE = {
   location: "Montréal, QC, Canada",
   email: "shibinkoshy12345@gmail.com",
   github: "https://github.com/shibinkoshygit",
-  // Taken from the handle on your CV — confirm it opens your profile.
   linkedin: "https://www.linkedin.com/in/shibinkoshy",
 
   // PUBLIC copy of your CV — must never contain a phone number or street address.
